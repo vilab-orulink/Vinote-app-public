@@ -1,16 +1,16 @@
 {
-  "tag_name": "v0.1.6",
+  "tag_name": "v0.1.8",
   "draft": false,
   "prerelease": false,
-  "body": "## VINote Android 0.1.6\r\n\r\n- 对齐桌面端的会议文件识别入口，优化长录音上传与任务状态。\r\n- 改进会议、笔记、任务和飞书的操作布局与离线提示。\r\n- 支持从本公开仓库检查、下载并校验更新，安装由 Android 系统确认。\r\n\r\n### 安装说明\r\n\r\n本次发布使用新的 Android 签名。旧签名安装包无法直接覆盖升级；请先备份旧版数据，再按需要安装新签名版本。此签名基线的后续版本可覆盖升级。\r\n",
-  "html_url": "https://github.com/vilab-orulink/Vinote-app-public/releases/tag/v0.1.6",
+  "body": "VINote Android 0.1.8\r\n\r\n更新下载：修复部分网络无法连接 GitHub 下载入口的问题，改用 GitHub 官方资产接口。\r\n\r\n更新检查：GitHub API 限流时使用备用清单；安装包仍校验大小、摘要、应用标识和签名。\r\n\r\n体验改进：优化会议录音识别、任务状态、离线提示和界面。\r\n\r\n安装提示：旧正式版使用不同签名，无法直接覆盖安装。请先备份旧版数据；新签名版本的后续更新可覆盖升级。\r\n",
+  "html_url": "https://github.com/vilab-orulink/Vinote-app-public/releases/tag/v0.1.8",
   "assets": [
     {
-      "id": 726659764,
-      "name": "VINote-0.1.6-android.apk",
-      "browser_download_url": "https://github.com/vilab-orulink/Vinote-app-public/releases/download/v0.1.6/VINote-0.1.6-android.apk",
-      "size": 249870065,
-      "digest": "sha256:73ec4b3b10103839e1d8a18e07eb10d634e07769b96ed8a1f37f0f3f92a2d601"
+      "id": 726740206,
+      "name": "VINote-0.1.8-android.apk",
+      "browser_download_url": "https://github.com/vilab-orulink/Vinote-app-public/releases/download/v0.1.8/VINote-0.1.8-android.apk",
+      "size": 249871513,
+      "digest": "sha256:443aa1a8c3f9815c60d70bc4129695a4c1cdc8e86d1f33985d8a417affbc2c52"
     }
   ]
 }
